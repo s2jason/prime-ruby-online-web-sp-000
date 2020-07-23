@@ -6,6 +6,7 @@ def prime?(num)
   while n < num
     return false if num % n == 0
     n += 1
+    binding.pry
   end
   true
 end
